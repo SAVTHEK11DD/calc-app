@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css"
+</head>
+<body>
+    
+    <div id="cal">
+<input id="display" readonly>
+<div id="keys">
+    <button onclick="appendToDsipaly(`+`)" class="op">+</button>
+    <button onclick="appendToDsipaly(`7`)">7</button>
+    <button onclick="appendToDsipaly(`8`)">8</button>
+    <button onclick="appendToDsipaly(`9`)">9</button>
+    <button onclick="appendToDsipaly(`-`)"class="op">-</button>
+    <button onclick="appendToDsipaly(`4`)">4</button>
+    <button onclick="appendToDsipaly(`5`)">5</button>
+    <button onclick="appendToDsipaly(`6`)">6</button>
+    <button onclick="appendToDsipaly(`*`)"class="op">*</button>
+    <button onclick="appendToDsipaly(`1`)">1</button>
+    <button onclick="appendToDsipaly(`2`)">2</button>
+    <button onclick="appendToDsipaly(`3`)">3</button>
+    <button onclick="appendToDsipaly(`/`)"class="op">/</button>
+     <button onclick="appendToDsipaly(`0`)">0</button>
+    <button onclick="appendToDsipaly(`.`)">.</button>
+    <button onclick="calculate()"class="op">=</button>
+    <button onclick="clearDisplay()"class="op">C</button>
+</div>
+    </div>
+<script src="index.js"></script>
+</body>
+</html>
